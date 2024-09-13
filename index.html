@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title> My Portfolio</title>
+    <!-- Font AWESOME-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+     <!--Font Awesome-->
+  <link rel="stylesheet" href="css/style.css" />
+
+    </head>
+
+<body>
+    <!--==================== STYLE SWITCHER ====================-->
+ 
+    <input type="radio" name="color" id="color-1" />
+    <input type="radio" name="color" id="color-2" />
+    <input type="radio" name="color" id="color-3" />
+    <input type="radio" name="color" id="color-4" />
+    <input type="radio" name="color" id="color-5" />
+    <input type="radio" name="color" id="color-6" />
+    <input type="radio" name="color" id="color-7" />
+    <input type="radio" name="color" id="color-8" />
+    <input type="radio" name="color" id="color-9" />
+    <input type="radio" name="color" id="color-10" />
+    <input type="checkbox" id="toggler" />
+    <input type="checkbox" id="day-night" />
+    <div class="style__switcher">
+        <label for="toggler" class="style__switcher-toggler">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </label>
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+        </label>
+        <h3 class="style__switcher-title">Theme Colors</h3>
+        <div class="style__switcher-colors">
+            <label for="color-1" class="color-1 color"></label>
+            <label for="color-2" class="color-2 color"></label>
+            <label for="color-3" class="color-3 color"></label>
+            <label for="color-4" class="color-4 color"></label>
+            <label for="color-5" class="color-5 color"></label>
+            <label for="color-6" class="color-6 color"></label>
+            <label for="color-7" class="color-7 color"></label>
+            <label for="color-8" class="color-8 color"></label>
+            <label for="color-9" class="color-9 color"></label>
+            <label for="color-10" class="color-10 color"></label>
+        </div>
+    </div>
+    <!--=======HEADER=======-->
+    <header class="header">
+     <nav class="nav__container">
+            <a href="index.html" class="nav__logo"> Dharshan Kumar</a>
+            <input type="checkbox"id="nav-toggler" />
+            <label for="nav-toggler" class="nav__toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="#home" class="nav__link active-link">HOME</a>
+            </li>
+            <li class="nav__item"> 
+                <a href="#about" class="nav__link">ABOUT</a>
+            </li>
+            <li class="nav__item"> 
+                <a href="#qualification" class="nav__link">EXPERIENCE</a>
+            </li>
+            <li class="nav__item"> 
+                <a href="#services" class="nav__link">SERVICES</a>
+            </li>
+            <li class="nav__item"> 
+                <a href="#skills" class="nav__link">SKILLS</a>
+            </li>
+            <li class="nav__item"> 
+                <a href="#contact" class="nav__link">CONTACT</a>
+            </li>
+         </ul>    
+
+     </nav>
+    </header>
+<!--=======MAIN=======-->
+<main class="main">
+    <!--=======HOME=======-->
+    <section class="home" id="home">
+        <div class="home__container container grid">
+            <div class="home__content">
+                <span class="home__small"> Hello</span>
+                <h1 class="home__title">
+                    <span>I'm</span> Dharshan <br />
+                    a <span> Associate Java Developer </span>
+                </h1>
+                <p class="home__description">
+                    I am seeking a challenging position in the field of associate java developer where i can showcase my 
+                    theoretical and practical expertise, enhance my research and experimental skills.
+                </p>
+                <div class="home__btns">
+                    <a href="#contact" class="btn"> Hire Me</a>
+                    <a href="#skills" class="btn btn--transparent">Portfolio</a>
+
+                </div>
+            </div>
+                <div class="home__img-wrapper">
+                 <img src="Images/Dharshan_Photo-removebg-preview.png" alt="" class="home__img" />   
+                </div>
+            
+        </div>
+    </section>
+<!--==================== ABOUT ====================-->
+<section class="about section" id="about">
+    <div class="about__container container grid">
+        <div class="about__img-wrapper">
+            <img src="Images/Dharshan Photo.jpg" alt="" class="about__img" />
+            <img src="Images/Dharshan Photo.jpg" alt="" class="about__img" />
+            <img src="Images/Dharshan Photo.jpg" alt="" class="about__img" />
+            <img src="Images/Dharshan Photo.jpg" alt="" class="about__img" /> 
+        </div>
+    <div class="about__content">
+        <h2 class="section__title" data-title="Who am i?">
+            I'm Dharshan Kumar, a Associate Java Developer and Software Developer
+        </h2>
+        <p class="about__description">
+            🔹 Hello! I'm Dharshan Kumar JG, previously working in NON-IT Field for 6years and a keen interest in Java development. 
+            I am eager to kickstart my career in the dynamic world of software development, particularly focusing on Java technologies.
+            <br />
+            🔹 Seeking opportunities to collaborate with passionate teams, contribute my skills, and continue learning and growing as a  Java developer.
+             Open to internships, entry-level positions, and exciting projects where I can apply my knowledge and dedication.
+        </p>
+        <ul class="about__data grid">
+            <li class="data__item">
+                <h3 class="data__title"> From:</h3>
+                <span class="data__description"> Thirunagar, Madurai</span>
+            </li>
+            <li class="data__item">
+                <h3 class="data__title">Email:</h3>
+            <a href="mailto:dharshakumar.jg@gmail.com?subject=Contact&body=Hi%2C%0A%0AI%20saw%20your%20Portfolio%20and%20I%20want%20to%20contact%20you."
+            class="contact__data">dharshakumar.jg@gmail.com</a>
+
+            </li>
+        </ul>
+        <div class="about__bottom">
+           <!-- <a
+            href="https://drive.google.com/file/d/1w7vVE4hFwU8tE5cPdXN0NvoP9yB_ah77/view?usp=sharing" 
+            target="_blank" class="btn">Download CV</a>-->
+            <a href="Document/Dharshan_Kumar_Resume.pdf" target="_blank" class="btn">Download CV</a>
+            <div class="about__social-links">
+                <a href="https://www.linkedin.com/in/dharshankumarjg/"
+                target="_blank" class="about__social-link">
+            <i class="fa-brands fa-linkedin"></i>
+            </a>
+            </div>
+        </div>  
+    </div>
+</div>
+</section>
+ <!--==================== QUALIFICATION ====================-->
+<section class="qualification section" id="qualification">
+    <h2 class="section__title title-center" data-title="My Journey">
+        Qualification
+    </h2>
+<div class="resume__container container grid">
+<div class="resume__group">
+    <h3 class="resume__heading">Education</h3>
+    <div class="resume__items">
+        <div class="resume__item">
+            <div class="resume__header">
+                <h3 class="resume__subtitle">
+                    K.L.Nagaswamy Memorial Polytechnic College
+                </h3>
+                <span class="resume__icon">+</span>
+            </div>
+            <div class="resume__content">
+                <div class="resume__date-title">
+                    <h3 class="resume__title">Diploma in Electrical And Electronic Engineering</h3>
+                    <span class="resume__date">2014 - 2016</span>
+                </div>
+                <p class="resume__description">
+                    I graduated with a Diploma in Electrical And Electronic Engineering
+                    from KLN Polytechnic College with percentage of 82%.
+                </p>
+            </div>
+        </div>
+        <div class="resume__item">
+            <div class="resume__header">
+                <h3 class="resume__subtitle">
+                    M.M.Higher Secondary School
+                </h3>
+                <span class="resume__icon">-</span>
+            </div>
+            <div class="resume__content">
+                <div class="resume__date-title">
+                    <h3 class="resume__title">12th Std</h3>
+                    <span class="resume__date"> 2013 - 2014</span>
+                </div>
+                <p class="resume__description"> Grade:69%</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="resume__group">
+        <h3 class="resume__heading">Experience</h3>
+        <div class="resume__items">
+            <div class="resume__item">
+                <div class="resume__header">
+                    <h3 class="resume__subtitle">Billing And Cashier</h3>
+                    <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                    <div class="resume__date-title">
+                        <h3 class="resume__title">
+                            Dhanvanthri Nilayam Ayurveda Vaidhyasalai,Madurai
+                        </h3>
+                        <span class="resume__date">March 2021 - November 2023</span>
+                    </div>
+                    <p class="resume__description">
+                        🔹 Billing and Cash Handling,<br />🔹 Accounts Closing and Handover to Management.<br />
+                        🔹 Explaining Medicine to Patients.<br />
+                        🔹Monthly Report Preparation.
+
+                    </p>
+                </div>
+            </div>
+            <div class="resume__item">
+                <div class="resume__header">
+                    <h3 class="resume__subtitle">Commerical Assistant</h3>
+                    <span class="resume__icon">-</span>
+                </div>
+                <div class="resume__content">
+                    <div class="resume__date-title">
+                        <h3 class="resume__title">
+                            Sanwa Synergy Holdings India Pvt. Ltd.,Chengalpattu
+                        </h3>
+                        <span class="resume__date"> August 2016 - September 2020</span>
+                    </div>
+                    <p class="resume__description">
+                        🔹Preparing import and export invoices and dispatch the materials to customer.<br />
+                        🔹 production plan monitoring,follow-ups with customer,day-wise plan.<br />
+                        🔹 Preparing and submitting weekly and monthly reports to management.<br />
+                        🔹 Generating E-way Bill and  Handling Store Process.
+                    </p>
+                </div>
+            </div>  
+        </div>
+    </div>
+</div>
+</section>
+
+<!--==================== SERVICES ====================-->
+<section class="services section" id="services">
+    <h2 class="section__title title-center" data-title="Services">
+        What I do for you
+    </h2>
+    <div class="services__container container grid">
+        <div class="services__item">
+            <i class="fa-solid fa-pen-to-square services__icon"></i>
+            <h3 class="services__title"> Backend Development</h3>
+            <p class="services__description">
+                I specialize in Backend Development with expertise in technologies
+                like <br />🔹Core Java,<br />🔹 Spring Boot,<br />🔹 JSP,<br />🔹 JDBC,<br />🔹 MySQL.
+            </p>
+            <span class="services__no">01</span>
+        </div>
+    </div>
+</section>
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+        <h2 class="section__title title-center" data-title="My Talent">Skills</h2>
+        <div class="skills__container container grid">
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Programming Languages</h3>
+                    <span class="skills_no">01</span>
+                </div>
+                <div class="image-container">
+                  <img src="Images/java.png" alt="Java Logo" width="50" height="50"/>  
+                </div>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 100%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Frontend Technologies</h3>
+                    <span class="skills__no">02</span>
+                </div>
+                <div class="image-container">
+                 <img src="Images/html.png" alt="HTML Logo" width="50" height="50" />
+                 <img src="Images/css.png" alt="CSS Logo" width="50" height="50" />   
+                </div>
+             <div class="skills__bar">
+                <div class="skills__percentage" style="width: 100%;">
+                    <span></span>
+                </div>
+             </div>   
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Backend Technologies</h3>
+                 <span class="skills__no">03</span>   
+                </div>
+                <div class="image-container">
+                    <img src="Images/java.png" alt="JAVA Logo" width="50" height="50" />
+                    <img src="Images/springboot.png" alt="Spring Boot Logo" width="50" height="50" />
+                </div>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 100%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Database Technologies</h3>
+                    <span class="skills__no">04</span>
+                </div>
+                <div class="image-container">
+                    <img src="Images/mysql.png" alt="MYSQL Logo" width="50" height="50" />
+
+                </div>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 100%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Versioning</h3>
+                    <span class="skills__no">05</span>
+                </div>
+                <div class="image-container">
+                    <img src="Images/git.png" alt="GIT Logo" width="50" height="50" />
+                </div>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 100%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">IDE / Editor / Tools</h3>
+                    <span class="skills__no">06</span>
+                </div>
+                <div class="image-container">
+                    <img src="Images/eclipse.png" alt="Eclipse Logo" width="50" height="50" />
+                </div>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 100%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!--==================== PORTFOLIO ====================-->
+ <!--==================== Project ready panitu add panalam ====================-->
+
+
+  <!--==================== TESTIMONIALS ====================-->
+  <section class="testimonials"></section>
+
+   <!--==================== CONTACT ====================-->
+   <section class="contact section" id="contact">
+    <h2 class="section__title title-center" data-title="Get in touch">Contact Me</h2>
+    <div class="contact__container container grid">
+        <div class="contact__details">
+            <div class="contact__item">
+                <i class="fa-solid fa-phone contact__icon"></i>
+                <div>
+                    <h3 class="contact__title">Call Me</h3>
+                    <span class="contact__data">+91 9345241242</span>
+                </div>
+            </div>
+            <div class="contact__item">
+                <i class="fa-solid fa-envelope contact__icon"></i>
+                <div>
+                    <h3 class="contact__title">Email Me</h3>
+                    <span class="contact__data">dharshakumar.jg@gmail.com</span>
+                </div>
+            </div>
+            <div class="contact_item">
+                <i class="fa-solid fa-location-dot contact__icon"></i>
+                <div>
+                    <h3 class="contact__title">Address</h3>
+                    <span class="contact__data"> Thirunagar,Madurai,Tamilnadu</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+   </section>
+</main>
+  <!--==================== FOOTER ====================-->
+  
+</body>
+
+</html>
